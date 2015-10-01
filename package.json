@@ -1,0 +1,35 @@
+{
+  "name": "react-tutorial-with-redux",
+  "version": "0.0.0",
+  "description": "Code from the React tutorial with redux.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "react": "~0.13.3",
+    "redux": "~3.0.2",
+    "react-redux": "~3.0.1"
+  },
+  "devDependencies": {
+    "browserify": "~11.2.0",
+    "babelify": "~6.3.0",
+    "watchify": "~3.4.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "watchify --extension=js -o public/dist/bundle.js public/src/index.js",
+    "start": "node server.js"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reactjs/react-tutorial.git"
+  },
+  "engines": {
+    "node": "0.12.x"
+  }
+}
