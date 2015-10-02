@@ -1,14 +1,14 @@
 # react-tutorial-with-redux
 
-react tutorial rewrite with redux and ES6 example.
+React comment box example rewritten with Redux and ES6 example.
 
 ## Development
 
-To run this example:
-1. `npm i`
-2. `npm run watch`
-3. `npm start`
-4. open http://localhost:3000/ in the browser
+To run this example:   
+1. `npm i`   
+2. `npm run watch`   
+3. `npm start`   
+4. open http://localhost:3000/ in the browser   
 
 ## Lisence
 
